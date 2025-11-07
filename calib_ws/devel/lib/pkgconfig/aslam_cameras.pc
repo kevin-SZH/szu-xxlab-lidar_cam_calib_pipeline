@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: aslam_cameras
+Description: Description of aslam_cameras
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_cv/aslam_cameras/include -I/usr/include
+Libs: -L${prefix}/lib -laslam_cameras /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+Requires: 

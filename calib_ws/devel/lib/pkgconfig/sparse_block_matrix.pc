@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: sparse_block_matrix
+Description: Description of sparse_block_matrix
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_optimizer/sparse_block_matrix/include/
+Libs: -L${prefix}/lib -lsparse_block_matrix
+Requires: sm_common sm_eigen

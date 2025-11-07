@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sm_timing
+Description: Description of sm_timing
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_random/include -I/usr/include
+Libs: -L${prefix}/lib -lsm_timing
+Requires: sm_common sm_random

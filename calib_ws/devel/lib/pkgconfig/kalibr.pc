@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: kalibr
+Description: Description of kalibr
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_offline_calibration/kalibr/include
+Libs: -L${prefix}/lib -lkalibr
+Requires: 

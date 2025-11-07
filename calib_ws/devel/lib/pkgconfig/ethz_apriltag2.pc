@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: ethz_apriltag2
+Description: Description of ethz_apriltag2
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_offline_calibration/ethz_apriltag2/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lethz_apriltag2
+Requires: 

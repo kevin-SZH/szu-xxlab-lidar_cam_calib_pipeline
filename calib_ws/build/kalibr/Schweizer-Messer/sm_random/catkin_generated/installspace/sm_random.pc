@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sm_random
+Description: Description of sm_random
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsm_random
+Requires: 

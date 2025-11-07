@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: aslam_cv_error_terms
+Description: Description of aslam_cv_error_terms
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

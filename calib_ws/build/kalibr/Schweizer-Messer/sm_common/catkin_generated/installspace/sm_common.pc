@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sm_common
+Description: Description of sm_common
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lsm_common /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+Requires: 

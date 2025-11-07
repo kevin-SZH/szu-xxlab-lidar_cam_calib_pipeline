@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: aslam_cv_error_terms
+Description: Description of aslam_cv_error_terms
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_cv/aslam_cv_error_terms/include
+Libs: -L${prefix}/lib 
+Requires: 

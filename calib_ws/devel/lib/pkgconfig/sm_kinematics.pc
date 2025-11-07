@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: sm_kinematics
+Description: Description of sm_kinematics
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_kinematics/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_eigen/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_random/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_boost/include -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lsm_kinematics
+Requires: sm_common sm_eigen sm_boost

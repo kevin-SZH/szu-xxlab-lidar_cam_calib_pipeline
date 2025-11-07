@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_random/include/sm/random.hpp
+boost/cstdint.hpp
+-
+
+/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_random/src/random.cpp
+sm/random.hpp
+-
+boost/random/mersenne_twister.hpp
+-
+boost/random/linear_congruential.hpp
+-
+boost/random/uniform_int.hpp
+-
+boost/random/uniform_real.hpp
+-
+boost/random/variate_generator.hpp
+-
+boost/random/normal_distribution.hpp
+-
+

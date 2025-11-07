@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sm_matrix_archive
+Description: Description of sm_matrix_archive
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/usr/include
+Libs: -L${prefix}/lib -lsm_matrix_archive
+Requires: sm_common

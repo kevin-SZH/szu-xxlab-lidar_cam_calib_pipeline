@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: aslam_cv_serialization
+Description: Description of aslam_cv_serialization
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_cv/aslam_cv_serialization/include
+Libs: -L${prefix}/lib -laslam_cv_serialization
+Requires: 

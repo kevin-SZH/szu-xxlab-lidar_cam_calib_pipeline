@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sparse_block_matrix
+Description: Description of sparse_block_matrix
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsparse_block_matrix
+Requires: sm_common sm_eigen

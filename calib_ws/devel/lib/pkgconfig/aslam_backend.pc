@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/devel
+
+Name: aslam_backend
+Description: Description of aslam_backend
+Version: 0.0.1
+Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_optimizer/aslam_backend/include -I/usr/include
+Libs: -L${prefix}/lib -laslam_backend /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+Requires: sparse_block_matrix sm_boost sm_random sm_timing sm_logging sm_property_tree

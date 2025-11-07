@@ -1,0 +1,7 @@
+set(incremental_calibration_python_SETUP_PY_SETUP_MODULE "distutils.core")
+set(incremental_calibration_python_SETUP_PY_VERSION "0.0.1")
+set(incremental_calibration_python_SETUP_PY_SCRIPTS "")
+set(incremental_calibration_python_SETUP_PY_PACKAGES "incremental_calibration")
+set(incremental_calibration_python_SETUP_PY_PACKAGE_DIRS "src/incremental_calibration")
+set(incremental_calibration_python_SETUP_PY_MODULES "")
+set(incremental_calibration_python_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra  -shared -Wl,-soname,libaslam_imgproc.so -o /home/zhh/flir_ws/devel/lib/libaslam_imgproc.so CMakeFiles/aslam_imgproc.dir/src/UndistorterBase.cpp.o  /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 

@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: opencv2_catkin
+Description: Description of opencv2_catkin
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

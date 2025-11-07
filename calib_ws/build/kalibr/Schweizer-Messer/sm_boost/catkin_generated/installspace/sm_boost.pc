@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sm_boost
+Description: Description of sm_boost
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/usr/include
+Libs: -L${prefix}/lib -lsm_boost
+Requires: sm_common

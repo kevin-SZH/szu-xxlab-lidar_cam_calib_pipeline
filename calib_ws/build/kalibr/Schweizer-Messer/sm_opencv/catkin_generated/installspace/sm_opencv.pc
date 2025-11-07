@@ -1,0 +1,8 @@
+prefix=/home/zhh/flir_ws/install
+
+Name: sm_opencv
+Description: Description of sm_opencv
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+Requires: sm_common
