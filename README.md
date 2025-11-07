@@ -222,3 +222,12 @@ docker run \
   koide3/direct_visual_lidar_calibration:noetic \
   rosrun direct_visual_lidar_calibration viewer /tmp/preprocessed
 ```
+
+- [Camera ROS Driver](https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl)
+- [Kalibr Calibration Toolbox](https://github.com/ethz-asl/kalibr?tab=readme-ov-file)
+- [Livox ROS Driver 2](https://github.com/Livox-SDK/livox_ros_driver2)
+- [Livox SDK2](https://github.com/Livox-SDK/Livox-SDK2)
+- [Livox Camera Calibration Tool](https://github.com/hku-mars/livox_camera_calib)
+- [Direct Visual-LiDAR Calibration Tool (koide3)](https://github.com/koide3/direct_visual_lidar_calibration)
+
+We express our sincere gratitude to the developers of these projects!
