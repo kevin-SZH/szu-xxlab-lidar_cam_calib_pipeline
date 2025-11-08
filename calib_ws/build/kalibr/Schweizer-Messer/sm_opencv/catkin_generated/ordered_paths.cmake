@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include;/usr/include")

@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: aslam_backend_expressions
-Description: Description of aslam_backend_expressions
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -laslam_backend_expressions
-Requires: sparse_block_matrix

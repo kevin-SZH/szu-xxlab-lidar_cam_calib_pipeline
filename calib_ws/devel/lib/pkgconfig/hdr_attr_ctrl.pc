@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: hdr_attr_ctrl
-Description: Description of hdr_attr_ctrl
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs message_runtime

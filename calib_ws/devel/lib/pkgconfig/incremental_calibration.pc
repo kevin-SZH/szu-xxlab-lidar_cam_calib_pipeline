@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: incremental_calibration
-Description: Description of incremental_calibration
-Version: 0.0.1
-Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_incremental_calibration/incremental_calibration/include
-Libs: -L${prefix}/lib -lincremental_calibration
-Requires: sm_eigen

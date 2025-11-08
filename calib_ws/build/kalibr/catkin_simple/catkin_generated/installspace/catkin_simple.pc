@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: catkin_simple
-Description: Description of catkin_simple
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: catkin

@@ -38,11 +38,24 @@
 
 ## 标定步骤
 
-### 1. 克隆与编译项目
+### 1. 创建自己的工作空间并获取源码
+
+由于本仓库仅包含文档，不包含第三方项目的源码，您需要创建自己的工作空间并下载所有必需的包：
 
 ```bash
-git clone calib_ws
-cd /calib_ws
+mkdir -p calib_ws/src
+cd calib_ws/src
+
+# 克隆所有必需的仓库
+git clone https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl
+git clone https://github.com/ethz-asl/kalibr
+git clone https://github.com/Livox-SDK/livox_ros_driver2
+git clone https://github.com/Livox-SDK/Livox-SDK2
+git clone https://github.com/hku-mars/livox_camera_calib
+git clone https://github.com/koide3/direct_visual_lidar_calibration
+
+# 返回工作空间根目录
+cd ..
 ```
 
 在编译前，需要找到`hdr_bracketing_cam_ctrl/src/camera/camera_auto.cc`文件，将第49行（EnableAutoExposure相关）和第51行（EnableAutoGain相关）注释掉，以关闭自动曝光与自动增益功能。

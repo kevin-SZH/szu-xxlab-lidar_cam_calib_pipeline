@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: bsplines
-Description: Description of bsplines
-Version: 0.0.1
-Cflags: -I/home/zhh/flir_ws/src/kalibr/aslam_nonparametric_estimation/bsplines/include
-Libs: -L${prefix}/lib -lbsplines
-Requires: 

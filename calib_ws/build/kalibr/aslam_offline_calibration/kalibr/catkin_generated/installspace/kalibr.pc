@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: kalibr
-Description: Description of kalibr
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lkalibr
-Requires: 

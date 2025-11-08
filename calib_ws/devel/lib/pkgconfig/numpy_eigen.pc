@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: numpy_eigen
-Description: Description of numpy_eigen
-Version: 0.0.1
-Cflags: -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/numpy_eigen/include -I/usr/include
-Libs: -L${prefix}/lib -lnumpy_eigen /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-Requires: 

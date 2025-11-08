@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: aslam_splines_python
-Description: Description of aslam_splines_python
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,7 +1,0 @@
-set(aslam_backend_python_SETUP_PY_SETUP_MODULE "distutils.core")
-set(aslam_backend_python_SETUP_PY_VERSION "0.0.1")
-set(aslam_backend_python_SETUP_PY_SCRIPTS "")
-set(aslam_backend_python_SETUP_PY_PACKAGES "aslam_backend")
-set(aslam_backend_python_SETUP_PY_PACKAGE_DIRS "python/aslam_backend")
-set(aslam_backend_python_SETUP_PY_MODULES "")
-set(aslam_backend_python_SETUP_PY_MODULE_DIRS "")

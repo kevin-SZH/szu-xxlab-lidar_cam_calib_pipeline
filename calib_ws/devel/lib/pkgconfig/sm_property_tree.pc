@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: sm_property_tree
-Description: Description of sm_property_tree
-Version: 0.0.1
-Cflags: -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_property_tree/include -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/usr/include
-Libs: -L${prefix}/lib -lsm_property_tree
-Requires: sm_common

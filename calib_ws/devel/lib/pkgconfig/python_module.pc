@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: python_module
-Description: Description of python_module
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

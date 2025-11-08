@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: allan_variance_ros
-Description: Description of allan_variance_ros
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lallan_variance_ros -lyaml-cpp::yaml-cpp
-Requires: geometry_msgs sensor_msgs rospy tf2_geometry_msgs tf2_ros rosbag

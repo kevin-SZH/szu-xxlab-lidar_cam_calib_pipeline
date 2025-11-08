@@ -41,11 +41,24 @@ This project references the following projects:
 
 ## Calibration Steps
 
-### 1. Clone and Build the Project
+### 1. Create Your Own Workspace and Get Source Code
+
+Since this repository contains only documentation and does not include the source code of third-party projects, you need to create your own workspace and download all required packages:
 
 ```bash
-git clone calib_ws
-cd /calib_ws
+mkdir -p calib_ws/src
+cd calib_ws/src
+
+# Clone all required repositories
+git clone https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl
+git clone https://github.com/ethz-asl/kalibr
+git clone https://github.com/Livox-SDK/livox_ros_driver2
+git clone https://github.com/Livox-SDK/Livox-SDK2
+git clone https://github.com/hku-mars/livox_camera_calib
+git clone https://github.com/koide3/direct_visual_lidar_calibration
+
+# Return to workspace root
+cd ..
 ```
 
 Before compiling, locate the `hdr_bracketing_cam_ctrl/src/camera/camera_auto.cc` file and comment out lines 49 (EnableAutoExposure...) and 51 (EnableAutoGain...) to disable auto exposure and auto gain.

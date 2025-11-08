@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: sm_common
-Description: Description of sm_common
-Version: 0.0.1
-Cflags: -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_common/include -I/usr/include
-Libs: -L${prefix}/lib -lsm_common /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-Requires: 

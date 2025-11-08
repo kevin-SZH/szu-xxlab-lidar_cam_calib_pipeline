@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -Wall -Wextra  -shared -Wl,-soname,libsparse_block_matrix.so -o /home/zhh/flir_ws/devel/lib/libsparse_block_matrix.so CMakeFiles/sparse_block_matrix.dir/src/matrix_structure.cpp.o CMakeFiles/sparse_block_matrix.dir/src/sparse_helper.cpp.o CMakeFiles/sparse_block_matrix.dir/src/marginal_covariance_cholesky.cpp.o 

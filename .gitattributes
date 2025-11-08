@@ -1,3 +1,0 @@
-calib_ws/build/kalibr/aslam_cv/aslam_cv_backend_python/CMakeFiles/aslam_cv_backend_python.dir/src/module.cpp.o filter=lfs diff=lfs merge=lfs -text
-calib_ws/devel/lib/libaslam_cv_backend_python.so filter=lfs diff=lfs merge=lfs -text
-calib_ws/devel/lib/libaslam_cv_python.so filter=lfs diff=lfs merge=lfs -text

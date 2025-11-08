@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: ethz_apriltag2
-Description: Description of ethz_apriltag2
-Version: 0.0.1
-Cflags: -I${prefix}/include -I/usr/include/eigen3
-Libs: -L${prefix}/lib -lethz_apriltag2
-Requires: 

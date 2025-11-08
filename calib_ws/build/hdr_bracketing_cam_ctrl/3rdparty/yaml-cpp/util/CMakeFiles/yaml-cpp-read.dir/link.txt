@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/yaml-cpp-read.dir/read.cpp.o  -o /home/zhh/flir_ws/devel/lib/hdr_attr_ctrl/read  -Wl,-rpath,/home/zhh/flir_ws/devel/lib /home/zhh/flir_ws/devel/lib/libyaml-cpp.so.0.8.0 

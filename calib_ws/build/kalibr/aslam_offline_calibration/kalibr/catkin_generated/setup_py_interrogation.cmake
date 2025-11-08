@@ -1,7 +1,0 @@
-set(kalibr_SETUP_PY_SETUP_MODULE "distutils.core")
-set(kalibr_SETUP_PY_VERSION "0.0.1")
-set(kalibr_SETUP_PY_SCRIPTS "")
-set(kalibr_SETUP_PY_PACKAGES "kalibr_errorterms;kalibr_common;kalibr_camera_calibration;kalibr_imu_camera_calibration")
-set(kalibr_SETUP_PY_PACKAGE_DIRS "python/kalibr_errorterms;python/kalibr_common;python/kalibr_camera_calibration;python/kalibr_imu_camera_calibration")
-set(kalibr_SETUP_PY_MODULES "")
-set(kalibr_SETUP_PY_MODULE_DIRS "")

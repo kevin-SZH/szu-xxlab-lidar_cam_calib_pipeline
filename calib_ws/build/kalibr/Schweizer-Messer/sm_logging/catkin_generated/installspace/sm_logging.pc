@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: sm_logging
-Description: Description of sm_logging
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lsm_logging
-Requires: 

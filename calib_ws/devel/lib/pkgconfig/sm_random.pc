@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/devel
-
-Name: sm_random
-Description: Description of sm_random
-Version: 0.0.1
-Cflags: -I/home/zhh/flir_ws/src/kalibr/Schweizer-Messer/sm_random/include
-Libs: -L${prefix}/lib -lsm_random
-Requires: 

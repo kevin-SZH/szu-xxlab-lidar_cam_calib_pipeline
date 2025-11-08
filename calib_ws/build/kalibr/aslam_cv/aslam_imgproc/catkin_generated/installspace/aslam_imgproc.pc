@@ -1,8 +1,0 @@
-prefix=/home/zhh/flir_ws/install
-
-Name: aslam_imgproc
-Description: Description of aslam_imgproc
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -laslam_imgproc
-Requires: 
