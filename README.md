@@ -8,7 +8,7 @@ This project is a sensor calibration framework designed specifically for Livox M
 This project references the following projects:
 
 - Flir Camera ROS Driver  
-  https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl
+  https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl(Please go to official website to select the corresponding ros driver according to your camera)
 
 - Kalibr Calibration Toolbox  
   https://github.com/ethz-asl/kalibr?tab=readme-ov-file
