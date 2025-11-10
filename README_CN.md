@@ -58,7 +58,7 @@ git clone https://github.com/koide3/direct_visual_lidar_calibration
 cd ..
 ```
 
-在编译前，需要找到`hdr_bracketing_cam_ctrl/src/camera/camera_auto.cc`文件，将第49行（EnableAutoExposure相关）和第51行（EnableAutoGain相关）注释掉，以关闭自动曝光与自动增益功能。
+如果你的相机是Flir系列的，在编译前，需要找到`hdr_bracketing_cam_ctrl/src/camera/camera_auto.cc`文件，将第49行（EnableAutoExposure相关）和第51行（EnableAutoGain相关）注释掉，以关闭自动曝光与自动增益功能。
 
 ```bash
 catkin_make
