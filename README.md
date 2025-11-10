@@ -19,10 +19,10 @@ This project references the following projects:
 - Livox SDK2  
   https://github.com/Livox-SDK/Livox-SDK2
 
-- Livox Camera Calibration Tool  
+- Visual-LiDAR Calibration Tool1  
   https://github.com/hku-mars/livox_camera_calib
 
-- Direct Visual-LiDAR Calibration Tool (koide3)  
+- Visual-LiDAR Calibration Tool2 (koide3)  
   https://github.com/koide3/direct_visual_lidar_calibration
 
 ## Software Requirements
