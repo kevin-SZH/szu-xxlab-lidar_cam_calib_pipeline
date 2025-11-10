@@ -47,7 +47,7 @@ mkdir -p calib_ws/src
 cd calib_ws/src
 
 # 克隆所有必需的仓库
-git clone https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl
+git clone https://github.com/ShuyangUni/hdr_bracketing_cam_ctrl（请根据你的相机型号去官网选择对应的ros驱动）
 git clone https://github.com/ethz-asl/kalibr
 git clone https://github.com/Livox-SDK/livox_ros_driver2
 git clone https://github.com/Livox-SDK/Livox-SDK2
