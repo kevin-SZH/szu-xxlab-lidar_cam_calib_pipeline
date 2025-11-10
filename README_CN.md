@@ -16,10 +16,10 @@
 - Livox SDK2  
   https://github.com/Livox-SDK/Livox-SDK2
 
-- Livox相机标定工具  
+- 相机激光雷达外参标定工具1  
   https://github.com/hku-mars/livox_camera_calib
 
-- 相机激光雷达直接标定工具（koide3）  
+- 相机激光雷达外参标定工具2（koide3）  
   https://github.com/koide3/direct_visual_lidar_calibration
 
 ## 软件环境要求
