@@ -61,7 +61,7 @@ git clone https://github.com/koide3/direct_visual_lidar_calibration
 cd ..
 ```
 
-Before compiling, locate the `hdr_bracketing_cam_ctrl/src/camera/camera_auto.cc` file and comment out lines 49 (EnableAutoExposure...) and 51 (EnableAutoGain...) to disable auto exposure and auto gain.
+If the camera is flir series, before compiling, locate the `hdr_bracketing_cam_ctrl/src/camera/camera_auto.cc` file and comment out lines 49 (EnableAutoExposure...) and 51 (EnableAutoGain...) to disable auto exposure and auto gain.
 
 ```bash
 catkin_make
